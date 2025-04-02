@@ -21,15 +21,25 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
 
-      - name: 📂 Run backend tests with coverage
+      - name: 🧪 Run backend tests with coverage
         working-directory: ./back
         run: mvn clean verify
 
-      - name: 🧪 Upload backend coverage report
+      - name: 📤 Upload backend coverage report
         uses: actions/upload-artifact@v4
         with:
           name: backend-coverage-report
           path: back/target/site/jacoco/
+
+      - name: 🚀 Deploy backend coverage to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: back/target/site/jacoco
+          destination_dir: backend
+          keep_files: true
+
 
   test-frontend:
     name: Test Frontend with Angular & Karma
@@ -52,8 +62,17 @@ jobs:
         working-directory: ./front
         run: npm run test -- --watch=false --browsers=ChromeHeadless --code-coverage
 
-      - name: Upload frontend coverage report
+      - name: 📤 Upload frontend coverage report
         uses: actions/upload-artifact@v4
         with:
           name: frontend-coverage-report
           path: front/coverage/
+
+      - name: 🚀 Deploy frontend coverage to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: front/coverage/bobapp
+          destination_dir: frontend
+          keep_files: true

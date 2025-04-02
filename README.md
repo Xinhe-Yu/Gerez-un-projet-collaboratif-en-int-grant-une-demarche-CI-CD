@@ -1,10 +1,11 @@
 # BobApp
+[![Tests](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/tests.yml/badge.svg)](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/tests.yml)
 
 Clone project:
 
 > git clone XXXXX
 
-## Front-end 
+## Front-end
 
 Go inside folder the front folder:
 
@@ -22,7 +23,7 @@ Launch Front-end:
 
 Build the container:
 
-> docker build -t bobapp-front .  
+> docker build -t bobapp-front .
 
 Start the container:
 
@@ -50,8 +51,13 @@ Launch the tests:
 
 Build the container:
 
-> docker build -t bobapp-back .  
+> docker build -t bobapp-back .
 
 Start the container:
 
-> docker run -p 8080:8080 --name bobapp-back -d bobapp-back 
+> docker run -p 8080:8080 --name bobapp-back -d bobapp-back
+
+## Coverage Reports
+
+- [Frontend Coverage Report](https://xinhe-yu.github.io/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/frontend/index.html)
+- [Backend Coverage Report](https://xinhe-yu.github.io/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/backend/index.html)
