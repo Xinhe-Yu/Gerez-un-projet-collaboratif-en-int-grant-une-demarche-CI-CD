@@ -43,7 +43,7 @@ jobs:
 
       # SONAR – Analyse
       - name: 🚀 Run SonarCloud scan
-        uses: SonarSource/sonarcloud-github-action@v2
+        uses: SonarSource/sonarcloud-github-action@v5.0.0
         with:
           projectBaseDir: .
         env:
