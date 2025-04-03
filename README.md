@@ -1,6 +1,8 @@
 # BobApp
 [![Tests](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/tests.yml/badge.svg)](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/tests.yml)
 
+[![Sonar](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/quality.yml/badge.svg)](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/quality.yml)
+
 Clone project:
 
 > git clone XXXXX
