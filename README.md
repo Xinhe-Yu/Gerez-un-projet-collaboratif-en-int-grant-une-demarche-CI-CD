@@ -1,5 +1,5 @@
 # BobApp
-[![Tests](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/tests.yml/badge.svg)](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/tests.yml) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=xinhe-yu_bobapp&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=xinhe-yu_bobapp) [![CI-CD](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/ci-cd.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=xinhe-yu_bobapp&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=xinhe-yu_bobapp) [![CI-CD](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/Xinhe-Yu/Gerez-un-projet-collaboratif-en-int-grant-une-demarche-CI-CD/actions/workflows/ci-cd.yml)
 
 Clone project:
 
