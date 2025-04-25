@@ -53,6 +53,10 @@ Build the container:
 
 > docker build -t bobapp-back .
 
+Or pull the image:
+
+> docker pull thryligmos/bobapp-backend:latest
+
 Start the container:
 
 > docker run -p 8080:8080 --name bobapp-back -d bobapp-back
